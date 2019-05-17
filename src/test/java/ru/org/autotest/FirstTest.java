@@ -15,7 +15,9 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.google.com");
+        //driver.get("https://www.google.com");
+        driver.get("https://isf-113.skblab.ru");
+
 
     }
 
