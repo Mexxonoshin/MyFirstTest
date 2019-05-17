@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'selenium'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.8.1'
+    compile group: 'org.openqa.selenium.webdriver', name: 'webdriver-common', version: '0.6.685'
+}
